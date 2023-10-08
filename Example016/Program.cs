@@ -94,10 +94,10 @@ for (int i = 1; i < 40; i++)
 
 double Fibanacci(int n)
 {
-    if (n == 1 || n == 2) return 1;
-    else return Fibanacci(n-1) + Fibanacci(n-2);
+  if (n == 1 || n == 2) return 1;
+  else return Fibanacci(n - 1) + Fibanacci(n - 2);
 }
 for (int i = 1; i < 50; i++)
 {
-    System.Console.WriteLine($"f({i}) = {Fibanacci(i)}");
+  System.Console.WriteLine($"f({i}) = {Fibanacci(i)}");
 }
